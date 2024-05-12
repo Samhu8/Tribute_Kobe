@@ -14,7 +14,7 @@ h1,
 h2,
 h3,
 p {
-  color: white;
+  color: whitesmoke;
   text-align: center;
 }
 
@@ -43,7 +43,7 @@ p {
 }
 
 ul {
-  color: white;
+  color: whitesmoke;
   display: flex;
   justify-content: space-between;
   list-style-type: none;

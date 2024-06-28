@@ -2,6 +2,10 @@ html,
 body {
   height: 100%;
   background-color: #222831;
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
 }
 
 .container {
@@ -13,12 +17,15 @@ body {
   float: left;
   margin-right: 25px;
   margin-bottom: 50px;
+  border-radius: 8px;
 }
 
 #mambas {
   width: 290px;
   float: left;
   margin-right: 25px;
+  border-radius: 8px;
+
 }
 
 h2 {
@@ -43,6 +50,6 @@ p {
     display: block;
     clear: both;
     text-align: center;
-    color: whitesmoke;
+    color: gold;
     padding-top: 50px;
 }

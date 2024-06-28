@@ -2,13 +2,17 @@ html,
 body {
   height: 100%;
   background-color: #222831;
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
-body {
+/* body {
   display: flex;
   flex-direction: column;
   justify-content: stretch;
-}
+} */
 
 h1,
 h2,
@@ -34,8 +38,16 @@ p {
   font-size: 20px;
 }
 
+/* img {
+  width: 900px;
+  height: 450px;
+  margin: auto;
+  display: block;
+  border-radius: 8px;
+} */
+
 .container {
-  width: 75%;
+  width: 900px;
   margin: 0px auto;
   display: flex;
   flex-direction: column;
@@ -45,8 +57,27 @@ p {
 ul {
   color: whitesmoke;
   display: flex;
-  justify-content: space-between;
+  justify-content:space-between;
   list-style-type: none;
   font-size: 30px;
+  padding: 0;
 }
 
+a {
+  color: gold;
+}
+
+.kobe {
+  width: 900px;
+  height: 450px;
+  margin: auto;
+  display: block;
+  background-size: cover;
+  border-radius: 8px;
+  background-image: url(/public/images/kobe.jpg);
+  transition: background-image 0.2s ease-in-out;
+}
+
+.kobe:hover{
+  background-image: url(/public/images/blackMamba.jpg);
+}

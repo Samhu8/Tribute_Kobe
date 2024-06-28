@@ -1,0 +1,50 @@
+body {
+    background-color: #222831;
+    margin: 0px auto;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+h1 {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h2, ul {
+    color: whitesmoke;
+}
+
+ul {
+    font-size: 20px;
+}
+
+img {
+    height: 750px;
+    width: 475px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 1150px;
+    margin: 0px auto;
+}
+
+a{
+    font-size: 25px;
+    color: gold;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
